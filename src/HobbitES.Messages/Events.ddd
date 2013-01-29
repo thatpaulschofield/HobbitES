@@ -1,0 +1,28 @@
+﻿extern "HobbitES.Messages"
+
+const id = Guid id
+namespace HobbitES.Messages.Events
+
+//EVENTS:
+PlayerRegistered!(id, string playerId)
+JoinedGame!(id, Guid playerId, Guid gameId)
+CityBuilt!(id, Guid playerId, Guid provinceId, int x, int y)
+BuildingStarted!(id)
+BuildingCompleted!(id)
+ResearchStarted!(id)
+ResearchCompleted!(id)
+TroopsTrained!(id)
+DefensesTrained!(id)
+PopulationLimitChanged!(id)
+TotalPopulationChanged!(id)
+IdlePopulationChanged!(id)
+ResourcesGenerated!(id)
+BaseFoodProductionChanged!(id)
+BaseWoodProductionChanged!(id)
+BaseStoneProductionChanged!(id)
+BaseOreProductionChanged!(id)
+BaseGoldProductionChanged!(id)
+TaxRateChanged!(id)
+ItemAcquired!(id)
+QuestRewardCollected!(id)
+PlayerMightChanged!(id)

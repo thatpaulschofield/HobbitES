@@ -1,0 +1,21 @@
+﻿extern "HobbitES.Messages"
+
+namespace HobbitES.Messages.Commands
+const id = Guid id
+
+//COMMANDS:
+RegisterPlayer?(id, string playerId)
+	explicit "RegisterPlayer: ID: {id}, PlayerID: {playerId}"
+
+JoinGame?(id, Guid playerId)
+	explicit "JoinGame: ID: {id}, PlayerID: {playerId}"
+
+BuildCity?(id, Guid playerId, Guid provinceId, int x, int y)
+StartBuilding?(id)
+StartResearch?(id)
+TrainTroops?(id)
+TrainDefenses?(id)
+ChangeTaxRate ?(id)
+UseItem?(id)
+CollectQuestReward?(id)
+

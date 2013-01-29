@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HobbitES", "HobbitES\HobbitES.csproj", "{BB1FE10A-0BA8-415F-A94B-1D737B08A4DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HobbitES.Web", "HobbitES.Web\HobbitES.Web.csproj", "{55ADD489-3000-45EB-BD00-9CB6F2AAB6A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HobbitES.Messages", "HobbitES.Messages\HobbitES.Messages.csproj", "{A357FA5B-74E7-4A32-9886-210B697D2ACC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB1FE10A-0BA8-415F-A94B-1D737B08A4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1FE10A-0BA8-415F-A94B-1D737B08A4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1FE10A-0BA8-415F-A94B-1D737B08A4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1FE10A-0BA8-415F-A94B-1D737B08A4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55ADD489-3000-45EB-BD00-9CB6F2AAB6A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55ADD489-3000-45EB-BD00-9CB6F2AAB6A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55ADD489-3000-45EB-BD00-9CB6F2AAB6A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55ADD489-3000-45EB-BD00-9CB6F2AAB6A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A357FA5B-74E7-4A32-9886-210B697D2ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A357FA5B-74E7-4A32-9886-210B697D2ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A357FA5B-74E7-4A32-9886-210B697D2ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A357FA5B-74E7-4A32-9886-210B697D2ACC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
